@@ -1,0 +1,20 @@
+localStorage
+Storage {length: 0}
+localStorage.setItem('myitem', 'myvalue')
+undefined
+localStorage.getItem
+ƒ getItem() { [native code] }
+localStorage.getItem('myitem')
+'myvalue'
+localStorage.getItem('asd')
+null
+ const user = {name: 'vlad'}
+undefined
+localStorage.setItem('user', JSON.stringify(user))
+undefined
+localStorage.getItem('user')
+'{"name":"vlad"}'
+const userFomLS = JSON.parse(localStorage.user);
+undefined
+userFomLS
+{name: 'vlad'}
